@@ -1,5 +1,10 @@
 /* General Styles
 -------------------------*/
+/* color: #2304ad; */
+/* background: #2e0a0a; */
+
+
+
 html {
   font-size: 62.5%;
 }
@@ -14,7 +19,7 @@ body {
   background: #fff;
 }
 a {
-  color: #73E0B8;
+  color: #2304ad;
   text-decoration: none;
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -649,7 +654,7 @@ width:100px;
 	-ms-border-radius:50%;
 	-o-border-radius:50%;
 	border-radius:50%;
-background:rgba(115, 224, 184, 0.9);
+background: #2e0a0a;
 margin:15px auto;
 }
 #home .go i{
@@ -1161,7 +1166,8 @@ margin-bottom:0px;
 }
 .message {
     float: left;
-    height: 100%;
+    min-height: 300px;
+width: 90%;
     position: relative;
 	text-align:left;
 }
@@ -1209,7 +1215,10 @@ margin-bottom:0px;
 }
 .messageHeader span.purple {
     padding: 0 20px;
-	background: rgba(115, 224, 184, 0.9);
+  background: #2e0a0a;
+
+
+  
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -1311,7 +1320,7 @@ background-image:none;
 }
 }
 .navBtn {
-    background: none repeat scroll 0 0 rgba(115, 224, 184, 0.9);
+    background: none repeat scroll 0 0 grey;
     -webkit-border-radius:50em;
 	-moz-border-radius:50em;
 	-ms-border-radius:50em;
@@ -1335,6 +1344,7 @@ background-image:none;
     transition: all 0.5s linear 0s;
     width: 55px;
 }
+
 /* Video */
 .buttonBar {
   display: none;
@@ -1443,8 +1453,9 @@ text-align:center;
 padding-bottom:2em;
 }
 #about .about-block .circle {
-background-color: rgba(115, 224, 184, 0.8);
-    border: 30px solid rgba(115, 224, 184, 0.8);
+background: #2e0a0a;
+
+    border: 30px solid #2e0a0a;
     color: #FFFFFF;
     display: block;
     font-size: 5em;
@@ -1470,7 +1481,7 @@ background-color: rgba(115, 224, 184, 0.8);
 padding-top:10px;
 }
 #about .about-block:hover .circle{
-background-color: #73E0B8;
+background-color: rgb(22, 11, 129);
 	
 	-webkit-border-radius:0 50%;
 	-moz-border-radius:0 50%;
@@ -1710,7 +1721,8 @@ background:rgba(115, 224, 184, 0.9);
     font-size: 2.8em;
     font-weight: 100;
     margin: 0.65em 0 0.3em;
-	color:#73E0B8;
+  color: #2304ad;
+  
 	text-align:center;
 }
 .pane p {
@@ -1727,7 +1739,10 @@ background:rgba(115, 224, 184, 0.9);
     margin-bottom: 15px;
 }
 .subheading {
-    color: #7E7E7E;
+/* color: #2e0a0a; */
+color:white;
+background-color:#2e0a0a ;
+
     letter-spacing: 0.15em;
     margin: 0 auto 16px;
     text-transform: uppercase;
@@ -1754,8 +1769,8 @@ background:rgba(115, 224, 184, 0.9);
   -ms-transition:all 0.3s ease 0s;
   -o-transition:all 0.3s ease 0s;
   transition:all 0.3s ease 0s;
-	border: 1px solid #73E0B8;
-    color: #73E0B8;
+	border: 1px solid #2304ad;
+  color: #2304ad;
     display: inline-block;
     font-size: 1.3em;
     font-weight: 100;
@@ -1814,7 +1829,7 @@ background:rgba(115, 224, 184, 0.9);
 }
 .team-nav li.active {
     background-color: #F1F1F1;
-    border-color: #73E0B8;
+border-color: #2e0a0a;
 
 }
 .team-nav li.active .nav-pic {
@@ -1913,8 +1928,8 @@ background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
 	}
 }
 #testimonials .background-overlay{
-opacity:1;-webkit-opacity:1;-moz-opacity:1;
-background-color: rgba(115, 224, 184, 0.9);
+/* opacity:1;-webkit-opacity:1;-moz-opacity:1; */
+/* background-color: rgba(115, 224, 184, 0.9); */
 }
 /* Clients
 -------------------------*/
@@ -1950,7 +1965,7 @@ background-color: rgba(115, 224, 184, 0.9);
 }
 /* Services
 -------------------------*/
-#services{background:#73E0B8;position:relative;padding-top:100px;}
+#services{background:#f5f5dc;position:relative;padding-top:100px;}
 #services .subtitle{
 color:#52575C;
 }
@@ -3273,4 +3288,7 @@ line-height:30px;
     display: none;
 }
 }
-
+.chevron-down{
+background: #2e0a0a;
+border-radius: 50%;
+}
