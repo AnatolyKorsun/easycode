@@ -37,14 +37,14 @@
 		overflow: hidden;
 		margin: 0px auto;
 		position: relative;
-		background: url('../images/06_timelineDot.gif') 3px top repeat-y;
 	}
-		#dates {
-			width: 100px;
-			height: 500px;
-			overflow: hidden;
-			float: left;
-			padding:0;
+	#dates {
+		width: 100px;
+		height: 500px;
+		overflow: hidden;
+		float: left;
+		padding:0;
+		background: url('../images/06_timelineDot.gif') 3px top repeat-y;
 		}
 			#dates li {
 				list-style: none;
@@ -60,7 +60,9 @@
 			}
 				#dates a {
 					line-height: 38px;
-					padding-bottom: 10px;
+					background: #2e0a0a;
+					color:white;
+					padding: 5px 0px;
 				}
 				#dates .selected {
 			        font-size: 38px;
@@ -88,7 +90,10 @@
 				}
 				#issues li img {
 					float: left;
-					margin: 10px 30px 10px 50px;
+					margin: 10px 50px 10px 50px;
+					/* margin-left: auto; */
+					/* margin-right: auto; */
+
 					-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */   
 					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */      
 					zoom: 1;
@@ -105,15 +110,12 @@
 					
 				}
 				#issues li h1 {
-					color:#73E0B8;
 					font-size: 48px;
 					text-align: center;
-					
 				}
 				#issues li p {
 					  font-size: 14px;
 					font-weight: normal;
-					height: 115px;
 					line-height: 22px;
 					margin: 10px 20px;
 					overflow-y: auto;
@@ -131,11 +133,9 @@
 		}
 			#grad_top {
 		        top: 0;
-		        
 			}
 			#grad_bottom {
-		        bottom: 0;
-		        
+				bottom: 0;
 			}
 		
 		#next,
@@ -155,11 +155,11 @@
 				background-position:  0 0;
 			}
 			#next {
-				bottom: 0;
+				bottom:1rem;
 				background-image: url('../images/06_timelinenext_v.png');
 			}
 			#prev {
-				top: 0;
+				top: 1rem;
 				background-image: url('../images/06_timelineprev_v.png');
 			}
 				#next.disabled,

@@ -836,8 +836,36 @@
 .fa-clipboard:before {
   content: "\f0ea";
 }
-.fa-lightbulb-o:before {
-  content: "\f0eb";
+
+.fa-trophy{
+  content: "\f091";
+}
+.fa-unlock{
+  content: "\f09c";
+}
+.fa-flag-checkered{
+  content: "\f11e";
+}
+.fa-thumb-tack{
+  content: "\f08d";
+}
+.fa-code{
+  content: "\f121";
+}
+.fa-rose:before{
+  content: "\1F339";
+}
+.fa-cog:before {
+  content: "\f013";
+}
+.fa-object-group:before {
+  content: "\f247";
+}
+.fa-paint-brush:before {
+  content: "\f1fc";
+}
+.fa-newspaper-o:before {
+  content: "\f1ea";
 }
 .fa-exchange:before {
   content: "\f0ec";
@@ -858,7 +886,7 @@
   content: "\f0f2";
 }
 .fa-bell-o:before {
-  content: "\f0a2";
+  content: "f559";
 }
 .fa-coffee:before {
   content: "\f0f4";
