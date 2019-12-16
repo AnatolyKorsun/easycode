@@ -1489,6 +1489,7 @@ padding-top:10px;
 	-o-border-radius:0 50%;
 	border-radius:0 50%;
 }
+
 #about .about-block:first-child{
 border-left:none;
 }
@@ -2307,10 +2308,17 @@ margin-bottom:0px;
 	font-family:'Open Sans', sans-serif !important;
 	margin-top:40px;
 }
-#process .row .col h5 span{
-    color: #73E0B8;
-    display: block;
-    font-size:3em;
+.process-number{
+  display: inline-block;
+  color: #2e0a0a;
+font-weight: 800;
+ width: 25px;
+ height: 25px;
+ border: 2px solid #2e0a0a;
+ border-radius: 50%;
+ margin-right: 10px;
+}
+#process .row .col h5{
     font-weight: 800;
     transition: all 0.5s ease 0s;
 }
