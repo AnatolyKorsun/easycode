@@ -884,7 +884,7 @@ header.navbar .navbar-nav a:hover {
 .footer-brand{
   height: 60px;
   width: 105px;
-  background-image: url(./images/logo-white.png);
+  background-image: url(../images/logo-white.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
