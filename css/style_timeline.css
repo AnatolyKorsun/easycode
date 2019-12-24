@@ -44,7 +44,7 @@
 		overflow: hidden;
 		float: left;
 		padding:0;
-		background: url('../images/06_timelineDot.gif') 3px top repeat-y;
+		border-left: 2px solid #99b19c;
 		}
 			#dates li {
 				list-style: none;
@@ -60,7 +60,8 @@
 			}
 				#dates a {
 					line-height: 38px;
-					color:white;
+					font-weight: 800;
+					color:#99b19c;
 					padding: 5px 0px;
 				}
 				#dates .selected {
@@ -90,9 +91,6 @@
 				#issues li img {
 					float: left;
 					margin: 10px 50px 10px 50px;
-					/* margin-left: auto; */
-					/* margin-right: auto; */
-
 					-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */   
 					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */      
 					zoom: 1;
